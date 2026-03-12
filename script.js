@@ -50,7 +50,7 @@ Promise.all([
   // Navbar
   // ======================
   document.getElementById("clinicName").textContent =
-    data.clinic_name || "Dental Clinic";
+    data.name || "Dental Clinic";
 
   document.getElementById("callButton").href =
     "tel:" + (data.phone || "#");
