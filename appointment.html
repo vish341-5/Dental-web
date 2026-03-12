@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Book Appointment</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+/* Page layout */
+
+body{
+  font-family: Arial, sans-serif;
+  background:#f5f5f5;
+  margin:0;
+}
+
+.appointment-page{
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding:20px;
+}
+
+.appointment-box{
+  background:white;
+  padding:40px;
+  border-radius:10px;
+  width:100%;
+  max-width:500px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.appointment-box h2{
+  text-align:center;
+  margin-bottom:25px;
+}
+
+.appointment-form input,
+.appointment-form textarea{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:6px;
+}
+
+.appointment-form button{
+  width:100%;
+  padding:14px;
+  background:#f1c40f;
+  border:none;
+  color:white;
+  font-weight:bold;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="appointment-page">
+
+<div class="appointment-box">
+
+<h2>Book Your Appointment</h2>
+
+<form class="appointment-form">
+
+<input type="text" placeholder="Full Name" required>
+
+<input type="tel" placeholder="Phone Number" required>
+
+<input type="email" placeholder="Email">
+
+<input type="date" placeholder="Date "required>
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Submit Appointment</button>
+
+</form>
+
+</div>
+
+</section>
+
+</body>
+</html>

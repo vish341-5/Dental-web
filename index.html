@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dental Clinic</title>
+
+  <!-- Google Font -->
+ <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Website content starts here -->
+  
+<nav class="navbar">
+
+  <div class="nav-container">
+
+    <!-- Clinic Name -->
+    <div class="nav-logo">
+      <span id="clinicName">Dental Clinic</span>
+    </div>
+
+    <!-- Desktop Navigation Links -->
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <!-- Desktop Call Button -->
+    <a id="callButton" class="call-btn desktop-call" href="#">
+      <i class="ri-phone-line"></i> Call
+    </a>
+
+    <!-- Hamburger Menu for Mobile -->
+    <div class="menu-btn" id="menuBtn">
+      <i class="ri-menu-line"></i>
+    </div>
+
+  </div>
+
+</nav>
+
+<!--- Hero section--->
+
+<section class="hero scroll-fade">
+  <div class="hero-content">
+    <h1>Smile Brighter, Live Better</h1>
+    <p>Your trusted premium dental care experience</p>
+    <a href="appointment.html" class="btn">Book an Appointment</a>
+  </div>
+</section>
+
+<!---Services-->
+<section class="services scroll-fade" id="services">
+  <div class="section-title">
+    <h2>Our Services</h2>
+    <p>We provide a wide range of dental treatments to keep your smile healthy.</p>
+  </div>
+
+  <div class="services-container" id="servicesContainer">
+    <div class="service-card">
+      <img src="images/service1.jpg" alt="Teeth Whitening">
+      <h3>Teeth Whitening</h3>
+      <p>Brighten your smile with safe and effective whitening treatments.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/service2.jpg" alt="Dental Implants">
+      <h3>Dental Implants</h3>
+      <p>Replace missing teeth with high-quality, durable implants.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="images/service3.jpg" alt="Orthodontics">
+      <h3>Orthodontics</h3>
+      <p>Straighten your teeth with invisible or traditional braces.</p>
+    </div>
+    <!-- Services will be injected here by JS -->
+  </div>
+</section>
+
+
+<!----About our dentist--->
+<section class="about-dentists scroll-fade" id="about-dentists">
+  <div class="section-title">
+    <h2>About Our Dentists</h2>
+    <p>Meet the professionals who care for your smile.</p>
+  </div>
+  <div class="dentists-container" id="dentistsContainer">
+    <div class="dentist-card">
+      <img src="images/DP.png" alt="Dr. Priya Sharma">
+      <h3>Doctor's Name</h3>
+      <p class="specialty">specialty</p>
+      <p class="bio">
+        With 10+ years of experience, {name} specializes in creating perfect smiles using modern orthodontic techniques.
+      </p>
+    </div>
+
+    <div class="dentist-card">
+      <img src="images/DP.png" alt="Dr. Arjun Mehta">
+      <h3>Doctor's name</h3>
+      <p class="specialty">specialty</p>
+      <p class="bio">
+        {name} combines aesthetics with dental health to give patients a confident and healthy smile.
+      </p>
+    </div>
+    <!-- Dentist cards will be injected here by JS -->
+  </div>
+</section>
+
+<!----Why choose us-->
+<section class="why-choose-us scroll-fade" id="why-choose-us">
+  <div class="section-title">
+    <h2>Why Choose Us</h2>
+    <p>Our commitment to excellence makes us your trusted dental clinic.</p>
+  </div>
+  <div class="choose-us-container" id="chooseUsContainer">
+    <div class="why-card">
+      <i class="ri-stethoscope-line"></i>
+      <h3>Expert Dentists</h3>
+      <p>Our team has years of experience providing top-notch dental care.</p>
+    </div>
+
+    <div class="why-card">
+      <i class="ri-shield-check-line"></i>
+      <h3>Safe & Sterile</h3>
+      <p>We follow the highest standards of hygiene and sterilization.</p>
+    </div>
+
+    <div class="why-card">
+      <i class="ri-time-line"></i>
+      <h3>Flexible Scheduling</h3>
+      <p>Appointments that fit your busy lifestyle.</p>
+    </div>
+    <!-- Cards will be injected here by JS -->
+  </div>
+</section>
+
+<!---Gallery--->
+
+
+<!---Testimonials-->
+<section class="testimonials scroll-fade" id="testimonials">
+  <div class="section-title">
+    <h2>What Our Patients Say</h2>
+    <p>Hear from our happy and satisfied patients.</p>
+  </div>
+  <div class="testimonials-container" id="testimonialsContainer">
+    <!-- Testimonial cards will be injected here by JS -->
+  </div>
+</section>
+
+<!---Appointment-->
+<section class="appointment scroll-fade" id="appointment">
+  <div class="appointment-container">
+    <h2 class="appointment-headline">Book Your Appointment</h2>
+    <p class="appointment-subtext">Schedule a visit with our expert dentists at your convenience.</p>
+    <a href="appointment.html" class="btn appointment-btn">Book Now</a>
+  </div>
+</section>
+
+
+<!---maps + contact-->
+<section class="contact scroll-fade" id="contact">
+  <div class="section-title">
+    <h2>Contact Us</h2>
+    <p>Get in touch with our clinic or find us on the map.</p>
+  </div>
+
+  <div class="contact-container">
+
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <p id="contactAddress"><i class="ri-map-pin-line"></i></p>
+      <p id="contactPhone"><i class="ri-phone-line"></i></p>
+      <p id="contactEmail"><i class="ri-mail-line"></i></p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <input type="text" placeholder="Subject" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+    
+  </div>
+  
+
+
+</section>
+
+<!--Footer-->
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Clinic Name -->
+    <div class="footer-brand">
+      <h3 id="footerClinicName">Dental Clinic</h3>
+      <p>Your trusted premium dental care experience.</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Info -->
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p id="footerPhone"><i class="ri-phone-line"></i> +91 98765 43210</p>
+      <p id="footerEmail"><i class="ri-mail-line"></i> info@dentalclinic.com</p>
+      <p id="footerAddress"><i class="ri-map-pin-line"></i> 123 Dental Street, City</p>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="#"><i class="ri-facebook-line"></i></a>
+        <a href="#"><i class="ri-instagram-line"></i></a>
+        <a href="#"><i class="ri-twitter-line"></i></a>
+        <a href="#"><i class="ri-linkedin-line"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> Dental Clinic. All rights reserved.</p>
+  </div>
+</footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
